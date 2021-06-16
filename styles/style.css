@@ -95,6 +95,14 @@ a {
   margin: 0 auto;
 }
 
+@media (max-width: 1000px) {
+  .banner__img {
+    width: 100%;
+    position: relative;
+    bottom: -196px;
+  }
+}
+
 .btn-group {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -145,6 +153,12 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 6rem;
+}
+
+@media (max-width: 1000px) {
+  .tarif {
+     flex-wrap: wrap;
+  }
 }
 
 .tarif-item {
